@@ -21,7 +21,7 @@ const Index = () => {
       </Flex>
 
       {/* Main Headline Section */}
-      <Box bg="gray.100" p={10} textAlign="center">
+      <Box bg="#f3f2ee" p={10} textAlign="center">
         <Heading as="h2" size="2xl" mb={4}>
           Main Headline: Market Trends in 2023
         </Heading>
@@ -33,15 +33,15 @@ const Index = () => {
       <Flex direction={{ base: "column", md: "row" }} p={10} gap={6}>
         {/* Featured Articles */}
         <VStack flex="3" spacing={6}>
-          <Box bg="white" p={5} shadow="md" borderWidth="1px" width="100%">
+          <Box bg="#f3f2ee" p={5} shadow="md" borderWidth="1px" width="100%">
             <Heading as="h3" size="lg" mb={2}>Article 1</Heading>
             <Text>Summary of the first featured article...</Text>
           </Box>
-          <Box bg="white" p={5} shadow="md" borderWidth="1px" width="100%">
+          <Box bg="#f3f2ee" p={5} shadow="md" borderWidth="1px" width="100%">
             <Heading as="h3" size="lg" mb={2}>Article 2</Heading>
             <Text>Summary of the second featured article...</Text>
           </Box>
-          <Box bg="white" p={5} shadow="md" borderWidth="1px" width="100%">
+          <Box bg="#f3f2ee" p={5} shadow="md" borderWidth="1px" width="100%">
             <Heading as="h3" size="lg" mb={2}>Article 3</Heading>
             <Text>Summary of the third featured article...</Text>
           </Box>
@@ -49,11 +49,11 @@ const Index = () => {
 
         {/* Sidebar */}
         <VStack flex="1" spacing={6}>
-          <Box bg="white" p={5} shadow="md" borderWidth="1px" width="100%">
+          <Box bg="#f3f2ee" p={5} shadow="md" borderWidth="1px" width="100%">
             <Heading as="h3" size="lg" mb={2}>Advertisement</Heading>
             <Text>Ad content goes here...</Text>
           </Box>
-          <Box bg="white" p={5} shadow="md" borderWidth="1px" width="100%">
+          <Box bg="#f3f2ee" p={5} shadow="md" borderWidth="1px" width="100%">
             <Heading as="h3" size="lg" mb={2}>Additional Links</Heading>
             <Text>Link 1</Text>
             <Text>Link 2</Text>
